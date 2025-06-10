@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhiram Bhimaraju | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>AB</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Abhiram Bhimaraju</h2>
+    <p>Cybersecurity Analyst – Web Penetration Testing & SOC Operations</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Cybersecurity enthusiast specializing in Web Penetration Testing and SOC operations. Skilled in identifying vulnerabilities using PortSwigger and analyzing phishing threats with Mimecast. Strong foundation in network security, cryptography, and ethical hacking, with hands-on experience from platforms like TryHackMe and Cybrary. Passionate about securing digital assets and mitigating cyber threats.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <h3>TRO Dept - SAPT Analyst Path</h3>
+    <p>Primera Medical Technologies, Madhapur<br />10/2024 - 01/2025</p>
+    <ul>
+      <li>Practical Networking</li>
+      <li>Cryptography</li>
+      <li>Network Security</li>
+      <li>Web Application Pen Testing</li>
+      <li>SOC Level-1</li>
+    </ul>
+    <a href="#">View Offer Letter</a> | <a href="#">View Certificate</a>
+  </section>
+
+  <section id="skills">
+    <h2>Key Skills</h2>
+    <ul class="skills">
+      <li>Practical Networking</li>
+      <li>Cryptography</li>
+      <li>Network Security</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>DSA Basics</li>
+      <li>MERN Stack</li>
+      <li>SQL</li>
+      <li>VAPT</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div>
+      <h3>Bachelor of Technology</h3>
+      <p>Malla Reddy University, Hyderabad (09/2021 - 05/2025)<br />CGPA: 8.79</p>
+    </div>
+    <div>
+      <h3>Intermediate</h3>
+      <p>Sri Chaitanya Junior College, Kakinada (06/2019 - 04/2021)<br />Percentage: 88.2%</p>
+    </div>
+    <div>
+      <h3>Secondary School</h3>
+      <p>Bhashyam High School, Ramachandrapuram (06/2018 - 04/2019)<br />CGPA: 9.7</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Academic Projects</h2>
+    <ul class="projects">
+      <li><strong>Authent</strong> - 2FA for Web Apps using TOTP (03/2023 - 07/2023)</li>
+      <li><strong>Teach Track</strong> - Feedback platform (08/2023 - 12/2023)</li>
+      <li><strong>MED FORECAST</strong> - Medical forecasting tool (01/2024 - 06/2024)</li>
+      <li><strong>Online Code Compiler</strong> - Multi-language code runner (06/2024 - 07/2024)</li>
+      <li><strong>Defense against SQL injection</strong> - SQLi prevention (07/2024 - 11/2024)</li>
+      <li><strong>Breach Blocker</strong> - XSS mitigation (01/2025 - 05/2025)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p><strong>Phone:</strong> 6303496188</p>
+    <p><strong>Email:</strong> bheemarajuabhiram@gmail.com</p>
+    <p><strong>Location:</strong> Kondapur, Hyderabad, India</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <div class="form-buttons">
+        <button type="submit">Send Message</button>
+        <button type="reset">Cancel</button>
+      </div>
+      <p id="form-message"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Abhiram Bhimaraju. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      document.getElementById("form-message").textContent = "✅ Message sent successfully!";
+      this.reset();
+    });
+  </script>
+</body>
+</html>
